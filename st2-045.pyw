@@ -224,7 +224,7 @@ class Ui_MainWindow(object):
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(_translate("MainWindow", "Struts2漏洞利用工具【天融信广州安服工具组】", None))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Struts2漏洞利用工具", None))
         self.label.setText(_translate("MainWindow", "地址", None))
         self.lineEdit_url.setText(_translate("MainWindow", "http://127.0.0.1/index.action", None))
         self.text_info.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
